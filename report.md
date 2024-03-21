@@ -139,9 +139,9 @@ strings Rjomba111.dmp | grep -x '.\{16,32\}'
 
 #### 6. Как злоумышленник просканировал систему? (10 PTS)
 
-...
+Через утилиту linpeas (в папке `/root` лежит файл `.bash_history`, в этом файле злоумышленник удалил вывод linpeas (`rm -rf /tmp/linpeas.txt`)).
 
 #### 7. С помощью какого ВПО злоумышленник закрепился на сервере? (10 PTS)
 
-С помощью тулзы для backdoor ([нажать сюда](https://github.com/chokepoint/Jynx2/tree/master)). Она скомпилирована в корне `/root/autokitter.sh`.
+С помощью инструмента для backdoor ([нажать сюда](https://github.com/chokepoint/Jynx2/tree/master)). Она скомпилирована в корне `/root/autokitter.sh`.
 
