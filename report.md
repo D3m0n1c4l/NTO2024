@@ -1,5 +1,5 @@
 # Отчёт команды "The Vermillion Team" (No. 26)
-## CTF 
+## Part 1. Наступательная кибербезопасность.
 
 ### Web-10
 
@@ -62,3 +62,6 @@ Upgrade-Insecure-Requests: 1
 ```
 
 Флаг: `nto{Ht1P_sM088Lin6_88Ti}`
+
+
+## Part 2. Расследование инцидента.
