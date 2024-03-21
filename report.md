@@ -143,5 +143,5 @@ strings Rjomba111.dmp | grep -x '.\{16,32\}'
 
 #### 7. С помощью какого ВПО злоумышленник закрепился на сервере? (10 PTS)
 
-...
+С помощью тулзы для backdoor ([нажать сюда](https://github.com/chokepoint/Jynx2/tree/master)). Она скомпилирована в корне `/root/autokitter.sh`.
 
