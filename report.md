@@ -80,7 +80,7 @@ Upgrade-Insecure-Requests: 1
 
 ### 4. Какие методы противодействия отладке использует программа? (10 PTS)
 
-...
+Встроенные функции (`IsDebuggerPresent()`, `CheckRemoteDebuggerPresent()`) для проверки присутствия отладчика, TLS Callbacks (`TlsAlloc()`, `TlsGetValue()`, `TlsSetValue()`).
 
 ### 5. Какой алгоритм шифрования используется при шифровании данных? (10 PTS)
 
